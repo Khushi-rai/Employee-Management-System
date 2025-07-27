@@ -2,6 +2,7 @@
 This Java-based desktop application provides a graphical interface to manage employee records, including onboarding, viewing, updating, and deboarding employees.It is built using Java Swing (with WindowBuilder) for the UI, Hibernate ORM for database interaction, and MySQL as the backend database.
 
 🚀 Features
+<br>
 Onboard Employee: Add new employees to the database via a user-friendly form.
 <br>
 View All Employees: Display a complete list of all employees using a JTable.
