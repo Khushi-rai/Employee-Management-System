@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<hibernate-configuration>
+ <session-factory>
+    <!-- Database connection settings -->
+    <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+    <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/employeedb</property>
+    <property name="hibernate.connection.username">root</property>
+    <property name="hibernate.connection.password">Koracle@123</property>
+
+    <!-- Hibernate settings -->
+    <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+    <property name="hibernate.show_sql">true</property>
+    <property name="hibernate.format_sql">true</property>
+
+    <!-- Entity class mapping -->
+    <mapping class="com.kodnest.EMSHibernate.Employee"/>
+
+  </session-factory>
+</hibernate-configuration>
