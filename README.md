@@ -18,6 +18,7 @@ Swing GUI: Fully designed using WindowBuilder in Eclipse for ease of interaction
 Hibernate Integration: Simplified database operations through ORM mapping.
 
 🛠️ Technologies Used
+<br>
 Java (JDK 8/11)
 <br>
 Java Swing (GUI)
